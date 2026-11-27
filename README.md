@@ -17,8 +17,8 @@
 | 단계 | 내용 | 산출물 | 상태 |
 |---|---|---|---|
 | 1단계 | 환경 정리, 규칙 정리, 탐색 플레이 | `docs/01~03` | 완료 |
-| 2단계 | 테스트 계획 작성 | `docs/04_test-plan.md` | 진행 예정 |
-| 3단계 | 테스트 케이스 작성·실행 | `test-cases/test-cases.csv` | 예정 |
+| 2단계 | 테스트 계획, 테스트 케이스 작성 | `docs/04_test-plan.md`, `test-cases/test-cases.csv` | 완료 |
+| 3단계 | 테스트 실행, 결과 기록 | `test-cases/test-cases.csv` | 완료 (31건 Pass) |
 
 ## 폴더 구조
 ```
