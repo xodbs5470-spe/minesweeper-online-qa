@@ -18,7 +18,13 @@
 |---|---|---|---|
 | 1단계 | 환경 정리, 규칙 정리, 탐색 플레이 | `docs/01~03` | 완료 |
 | 2단계 | 테스트 계획, 테스트 케이스 작성 | `docs/04_test-plan.md`, `test-cases/test-cases.csv` | 완료 |
-| 3단계 | 테스트 실행, 결과 기록 | `test-cases/test-cases.csv` | 완료 (31건 Pass) |
+| 3단계 | 테스트 실행, 결과 기록 (예외 상황 포함) | `test-cases/test-cases.csv` | 완료 |
+| 4단계 | 결과 보고서 | `docs/05_test-report.md` | 완료 |
+
+## 결과 요약
+- 테스트 케이스 42건: Pass 40건, 명세 미기재 2건, Fail 0건
+- 핵심 기능에서 결함 없음, 도움말 보완 등 개선 제안 4건
+- 자세한 내용: [테스트 결과 보고서](docs/05_test-report.md)
 
 ## 폴더 구조
 ```
@@ -28,7 +34,8 @@ minesweeper-online-qa/
 │   ├── 01_test-environment.md   테스트 환경
 │   ├── 02_spec-notes.md         도움말에서 정리한 규칙
 │   ├── 03_exploratory-notes.md  탐색 플레이 메모
-│   └── 04_test-plan.md          테스트 계획 (2단계)
+│   ├── 04_test-plan.md          테스트 계획
+│   └── 05_test-report.md        테스트 결과 보고서
 ├── test-cases/
 │   └── test-cases.csv           테스트 케이스
 └── screenshots/                 증거 스크린샷
